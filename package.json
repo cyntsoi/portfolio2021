@@ -43,6 +43,7 @@
     "react-icons": "^4.2.0"
   },
   "devDependencies": {
+    "@sanity/cli": "^2.5.0",
     "@testing-library/react": "^11.2.5",
     "@types/jest": "^26.0.20",
     "@types/node": "^14.14.25",
