@@ -1,4 +1,4 @@
 import {withChakraIcon} from "./utils";
-import {IoMdCode} from "@react-icons/all-files/Io/IoMdCode";
+import {BiCode} from "@react-icons/all-files/Bi/BiCode";
 
-export default withChakraIcon(IoMdCode)
+export default withChakraIcon(BiCode)
