@@ -6,9 +6,7 @@ const InvertWrappers = {
   light: DarkMode,
 }
 
-export const InvertColorMode: FC<PropsWithChildren<Record<string, never>>> = ({
-  children,
-}) => {
+export const InvertColorMode: FC<PropsWithChildren<any>> = ({ children }) => {
   const { colorMode } = useColorMode()
   const Wrapper =
     typeof InvertWrappers[colorMode] !== 'undefined'

@@ -50,9 +50,9 @@ const ScrollPositionContext = createContext<ScrollPosition>(InitialState)
 
 export const useScrollPositionContext = () => useContext(ScrollPositionContext)
 
-export const ScrollPositionProvider: FC<
-  PropsWithChildren<Record<string, never>>
-> = ({ children }) => {
+export const ScrollPositionProvider: FC<PropsWithChildren<any>> = ({
+  children,
+}) => {
   const scrollPos = useScrollPosition()
   return (
     <ScrollPositionContext.Provider value={scrollPos}>

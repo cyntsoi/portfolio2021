@@ -1,13 +1,12 @@
-import {ChakraProvider} from '@chakra-ui/react'
+import { ChakraProvider } from '@chakra-ui/react'
 
 import theme from '../theme/'
-import {Global} from '@emotion/react'
-import {AppProps} from 'next/app'
-
+import { Global } from '@emotion/react'
+import { AppProps } from 'next/app'
 
 const Fonts = () => (
-    <Global
-        styles={`
+  <Global
+    styles={`
       @font-face {
         font-family: 'GT Eesti Display';
         font-style: normal;
@@ -37,16 +36,16 @@ const Fonts = () => (
         src: url(/fonts/Sailec-Regular.woff2) format('woff2'), url(/fonts/Sailec-Regular.woff);
         }
       `}
-    />
+  />
 )
 
-function MyApp({Component, pageProps}: AppProps) {
-    return (
-        <ChakraProvider resetCSS theme={theme}>
-            <Fonts/>
-            <Component {...pageProps} />
-        </ChakraProvider>
-    )
+function MyApp({ Component, pageProps }: AppProps) {
+  return (
+    <ChakraProvider resetCSS theme={theme}>
+      <Fonts />
+      <Component {...pageProps} />
+    </ChakraProvider>
+  )
 }
 
 export default MyApp

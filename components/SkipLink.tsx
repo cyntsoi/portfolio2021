@@ -12,7 +12,7 @@ const Inner: FC<{ href?: string }> = ({ href }) => {
   )
 }
 
-const SkipLink: FC<PropsWithChildren<Record<string, never>>> = () => {
+const SkipLink: FC<PropsWithChildren<any>> = () => {
   return (
     <InvertColorMode>
       <Link href="#content" passHref>

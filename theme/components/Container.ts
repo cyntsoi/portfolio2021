@@ -1,3 +1,3 @@
 export default {
-    baseStyle: {maxW: {"xl":"container.xl"}},
+  baseStyle: { maxW: { xl: 'container.xl' } },
 }
