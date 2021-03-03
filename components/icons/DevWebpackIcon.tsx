@@ -1,4 +1,4 @@
-import {withChakraIcon} from "./utils";
-import {SiWebpack} from "@react-icons/all-files/Si/SiWebpack";
+import { withChakraIcon } from './utils'
+import { SiWebpack } from 'react-icons/Si'
 
 export default withChakraIcon(SiWebpack)

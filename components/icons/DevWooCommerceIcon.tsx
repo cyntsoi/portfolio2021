@@ -1,4 +1,4 @@
-import {withChakraIcon} from "./utils";
-import {SiWoocommerce} from "@react-icons/all-files/Si/SiWoocommerce";
+import { withChakraIcon } from './utils'
+import { SiWoocommerce } from 'react-icons/Si'
 
 export default withChakraIcon(SiWoocommerce)

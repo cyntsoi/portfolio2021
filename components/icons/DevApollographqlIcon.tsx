@@ -1,4 +1,4 @@
-import {withChakraIcon} from "./utils";
-import {SiApollographql} from "@react-icons/all-files/Si/SiApollographql";
+import { withChakraIcon } from './utils'
+import { SiApollographql } from 'react-icons/Si'
 
 export default withChakraIcon(SiApollographql)

@@ -1,8 +1,10 @@
-import React, {ComponentProps, FC} from "react";
-import Icon, {IconProps} from "@chakra-ui/icon";
+import React, { ComponentProps, FC } from 'react'
+import Icon, { IconProps } from '@chakra-ui/icon'
 
-export const withChakraIcon = (Component: ComponentProps<typeof Icon>["as"]): FC<Omit<IconProps,"as">> => {
-    return (iconProps) => {
-        return <Icon as={Component} {...iconProps} />
-    }
+export const withChakraIcon = (
+  Component: ComponentProps<typeof Icon>['as']
+): FC<IconProps> => {
+  return (iconProps) => {
+    return <Icon as={Component} {...iconProps} />
+  }
 }

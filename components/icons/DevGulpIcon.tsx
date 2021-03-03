@@ -1,4 +1,4 @@
-import {withChakraIcon} from "./utils";
-import {DiGulp} from "@react-icons/all-files/Di/DiGulp";
+import { withChakraIcon } from './utils'
+import { DiGulp } from 'react-icons/Di'
 
 export default withChakraIcon(DiGulp)

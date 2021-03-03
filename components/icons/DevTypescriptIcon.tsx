@@ -1,4 +1,4 @@
-import {withChakraIcon} from "./utils";
-import {SiTypescript} from "@react-icons/all-files/Si/SiTypescript";
+import { withChakraIcon } from './utils'
+import { SiTypescript } from 'react-icons/Si'
 
 export default withChakraIcon(SiTypescript)

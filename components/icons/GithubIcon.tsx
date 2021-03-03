@@ -1,4 +1,4 @@
-import {withChakraIcon} from "./utils";
-import {FaGithub} from "@react-icons/all-files/fa/FaGithub";
+import { withChakraIcon } from './utils'
+import { FaGithub } from 'react-icons/fa'
 
 export default withChakraIcon(FaGithub)

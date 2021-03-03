@@ -1,4 +1,4 @@
-import {withChakraIcon} from "./utils";
-import {DiCss3} from "@react-icons/all-files/Di/DiCss3";
+import { withChakraIcon } from './utils'
+import { DiCss3 } from 'react-icons/Di'
 
 export default withChakraIcon(DiCss3)

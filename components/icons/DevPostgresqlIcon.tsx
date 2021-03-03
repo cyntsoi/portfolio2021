@@ -1,4 +1,4 @@
-import {withChakraIcon} from "./utils";
-import {DiPostgresql} from "@react-icons/all-files/Di/DiPostgresql";
+import { withChakraIcon } from './utils'
+import { DiPostgresql } from 'react-icons/Di'
 
 export default withChakraIcon(DiPostgresql)
