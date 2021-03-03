@@ -1,4 +1,4 @@
 import { withChakraIcon } from './utils'
-import { SiRedux } from 'react-icons/Si'
+import { SiRedux } from 'react-icons/si'
 
 export default withChakraIcon(SiRedux)

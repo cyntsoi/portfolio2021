@@ -1,4 +1,4 @@
 import { withChakraIcon } from './utils'
-import { SiGreensock } from 'react-icons/Si'
+import { SiGreensock } from 'react-icons/si'
 
 export default withChakraIcon(SiGreensock)
